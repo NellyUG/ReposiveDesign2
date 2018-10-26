@@ -59,7 +59,7 @@ li a{
 	margin-top: 5px;
 }
 #center-header{
-	height: 596px;
+	height: 565px;
 }
 #centradito{
 	display: flex;
@@ -89,4 +89,48 @@ li a{
 	background:#f34d34;
 	transform: scale(1.05);
 	transition: 0.5s ease all;
+}
+#scrollbtn{
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	flex-direction: column;
+}
+#scrollbtn a{
+	background: rgba(215,215,215,0.9);
+	color: #000000;
+	text-align: center;
+	display: block;
+	width: 125px;
+	height: 25px;
+	border: none;
+	border-radius: 15px;
+	padding: 7px, 14px;	
+	font-weight: normal;
+	font-size: 15px;
+}
+#scrollbtn a:hover{
+	text-decoration: none;
+	background:#4fffff;
+	transform: scale(1.05);
+	transition: 0.5s ease all;
+}
+#centrado{
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	flex-direction: column;
+	margin-top: 30px;
+}
+#centrado h1{
+	color:#828181;
+	font-size: 21px;
+	border-bottom: 2px solid;
+	color: #828181;
+	padding: 8px;
+}
+#centrado h2{
+	color:#e2e1e1;
+	font-size: 14px;
+	margin-top: 5px;
 }
