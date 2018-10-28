@@ -72,7 +72,7 @@ li a{
 	font-weight: bold;
 	font-size: 55px;
 }
-#centradito a{
+.article a, #centradito a{
 	background:#54d154;
 	color: #fff;
 	text-align: center;
@@ -84,7 +84,7 @@ li a{
 	font-weight: normal;
 	font-size: 21px;
 }
-#centradito a:hover{
+.article a:hover,#centradito a:hover{
 	text-decoration: none;
 	background:#f34d34;
 	transform: scale(1.05);
@@ -115,22 +115,66 @@ li a{
 	transform: scale(1.05);
 	transition: 0.5s ease all;
 }
-#centrado{
+.centrado{
 	display: flex;
 	justify-content: center;
 	align-items:center;
 	flex-direction: column;
 	margin-top: 30px;
 }
-#centrado h1{
-	color:#828181;
-	font-size: 21px;
-	border-bottom: 2px solid;
-	color: #828181;
-	padding: 8px;
+.centrado h2:after{
+	content: "";
+	width: 44px;
+	height: 2px;
+	background: #828181;
+	display: block;
+	margin: 13px auto;
 }
-#centrado h2{
-	color:#e2e1e1;
-	font-size: 14px;
-	margin-top: 5px;
+.centrado h2{
+	color:#828181;
+	letter-spacing: 2px;
+}
+.centrado p{
+	color: #b7b3b3;
+	font-size: 16px;
+	font-weight: 300;
+}
+.article{
+	margin-bottom: 73px;
+}
+.article .wrapper-img{
+	width: 50%;
+	height: 142px;
+	background:#e1f3e1;
+	border-radius: 15px;
+	margin:27px auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.wrapper-img i{
+	font-size: 100px;
+	color: #54d154;
+}
+.article h3{
+	font-size: 24px;
+	color: #828181;
+	font-weight: 400;
+	text-align: center;
+	margin-bottom: 15px; 
+}	
+.article p{
+	font-size: 15px;
+	font-weight: 300;
+	text-align:center;
+}
+.article a{
+	height: 30px;
+	width: 40%;
+	margin: auto;
+	font-size: 16px;
+	padding: 3px 0;
+}
+.bg_verde{
+	background:#54d154;
 }
