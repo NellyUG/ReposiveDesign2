@@ -176,5 +176,81 @@ li a{
 	padding: 3px 0;
 }
 .bg_verde{
-	background:#54d154;
+	background:#54d154
+}
+.centrado1{
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	flex-direction: column;
+}
+.centrado1 h2{
+	font-size: 22px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	margin-top: 30px;
+	color: #2b9b2b;
+}
+.centrado1 p{
+	color: #2b9b2b;
+	font-size: 14px;
+	font-weight: 300;
+}
+.centrado1 h2:after{
+	content: "";
+	width: 44px;
+	height: 2px;
+	background: #2b9b2b;
+	display: block;
+	margin: 7px auto;
+}
+.tab{
+	text-align: center;
+	margin-top: 50px;
+}
+.tab button{
+	background: white;
+	border: 1px solid;
+	border-color: #2b9b2b;
+	color: #2b9b2b;
+}
+#primero{
+	border-bottom-left-radius: 15px;
+	border-top-left-radius: 15px;
+	background-color: #2b9b2b;
+	color: #ffff;
+}
+#ultimo{
+	border-bottom-right-radius: 15px;
+	border-top-right-radius: 15px;
+}
+.tab button:hover{
+	background: #2b9b2b;
+	color: white;
+	transition: 0.5s ease all;
+	text-decoration: none;
+}
+.tablita{
+	margin-top: 25px;
+	justify-content: center;
+	width: 100%;
+}
+.tablita img{
+	padding: 15px;
+	width: 200px;
+	height: 200px;
+}
+.viewmore{
+	display: block;
+	justify-content:center;
+	align-items: center;
+}
+.viewmore a{
+	border-radius: 15px;
+	margin-top: 40px;
+	margin-bottom: 80px;
+	background:#2b9b2b;
+	color: #ffff;
+	padding: 7px;
+	text-decoration: none;
 }
